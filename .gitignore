@@ -18,6 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
+pom.xml.releaseBackup
+release.properties
 
 ### NetBeans ###
 /nbproject/private/
