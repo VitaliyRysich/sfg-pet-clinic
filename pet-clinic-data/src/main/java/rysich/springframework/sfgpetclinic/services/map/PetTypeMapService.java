@@ -1,10 +1,12 @@
 package rysich.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import rysich.springframework.sfgpetclinic.model.PetType;
 import rysich.springframework.sfgpetclinic.services.PetTypeService;
 
 import java.util.Set;
 
+@Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {
