@@ -2,12 +2,12 @@ package rysich.springframework.sfgpetclinic.services.map;
 
 import org.springframework.stereotype.Service;
 import rysich.springframework.sfgpetclinic.model.Speciality;
-import rysich.springframework.sfgpetclinic.services.SpesialitiesService;
+import rysich.springframework.sfgpetclinic.services.SpecialtyService;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpesialitiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
