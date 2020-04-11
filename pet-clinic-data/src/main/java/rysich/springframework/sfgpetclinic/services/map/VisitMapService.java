@@ -1,10 +1,12 @@
 package rysich.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import rysich.springframework.sfgpetclinic.model.Visit;
 import rysich.springframework.sfgpetclinic.services.VisitService;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
 
